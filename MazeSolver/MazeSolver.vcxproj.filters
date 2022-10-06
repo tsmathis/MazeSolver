@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="MazeSolver">
+      <UniqueIdentifier>{011af2bf-f370-4066-b5bc-5a814855e714}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MazeSolver\Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="MazeSolver\Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="MazeSolver\Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="tests">
+      <UniqueIdentifier>{9548d661-6462-441d-99b5-ded52060b6e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MazeSolver\Source Files\maze_generation_algos">
+      <UniqueIdentifier>{de6dae49-d755-421b-8234-fa111c3f0594}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MazeSolver\Source Files\maze_setup">
+      <UniqueIdentifier>{abe97b15-168d-4ea9-9290-c8ce8c246126}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MazeSolver\Source Files\mazes">
+      <UniqueIdentifier>{5534157d-f3f7-4139-95cc-a464b6d0fff3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>MazeSolver\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="maze.cpp">
+      <Filter>MazeSolver\Source Files\maze_setup</Filter>
+    </ClCompile>
+    <ClCompile Include="a_star.cpp">
+      <Filter>MazeSolver\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BFS.cpp">
+      <Filter>MazeSolver\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dijkstra.cpp">
+      <Filter>MazeSolver\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="graph.cpp">
+      <Filter>MazeSolver\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="maze.h">
+      <Filter>MazeSolver\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DFS.h">
+      <Filter>MazeSolver\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="a_star.h">
+      <Filter>MazeSolver\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BFS.h">
+      <Filter>MazeSolver\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dijkstra.h">
+      <Filter>MazeSolver\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="graph.h">
+      <Filter>MazeSolver\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
